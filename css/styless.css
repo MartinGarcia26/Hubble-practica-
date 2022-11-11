@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+ /* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem;
+}
+
+.fondoimage {
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+}
+
+.logo {
+    width: 10%;
+    height: 8%;
+}
+
+.botonheader {
+    width: 20rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: solid 1px #ccc;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px #ccc; 
+}
+
+/* TERMINA HEADER */
+
+.seccionuno {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ladoizq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ladoizq h1 {
+    font-size: 4rem;
+}
+
+.ladoizq p {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.botonrosa {
+    width: 28rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: solid 1px #ccc;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px #ccc; 
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 2.5rem;
+    left: 0.5rem;
+}
+
+.ladoder {
+    display: flex;
+}
+
+/* COMIENZA LA PAGINA */
+
+.secciondos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    box-shadow:  0px 0px 30px rgb(155, 155, 155);
+    border-radius: 20px;
+    margin-bottom: 60px;
+    width: 90%;
+}
+
+.card img {
+    width: 54rem;
+    padding: 40px;
+    height: 54rem;
+}
+
+.card-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.card-child h3 {
+    font-size: 300%;
+}
+
+.card-child p {
+    font-size: 180%;
+    font-weight: 300;
+    color: grey;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+
+.div-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logofooter {
+    margin-bottom: 30px;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+.nosotros a {
+    color: white;
+    font-size: 140%;
+    margin-top: 15px;
+}
+
+.nosotros img {
+    margin-right: 10px;
+}
+
+.links a {
+    color: white;
+    font-size: 140%;
+}
+
+.links li {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.redes a{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.copy {
+    color: white;
+    font-size: 120%;
+    text-align: center;
+}
+
+.medio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px -5px 44px rgb(155, 155, 155);
+    border-radius: 20px;
+    position: relative;
+    padding: 40px 80px 40px 80px;
+    top: 100px;
+    background-color: white;
+}
+
+.medio p {
+    font-size: 290%;
+    font-weight: 600;
+}
+
+.medio button {
+    width: 28rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: solid 1px #ccc;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    box-shadow: 1px 1px #ccc; 
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 2.5rem;
+    left: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+
